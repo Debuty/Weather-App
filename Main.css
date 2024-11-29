@@ -161,3 +161,30 @@ margin-top: 30px;
    
     
 }
+
+@media(max-width: 450px){
+
+    .Div_Of_SearchBar_Div_Of_SearchIcon {
+
+        width: 100%;
+     
+        display: block;
+    
+    }
+
+    .button_Of_SearchIcon {
+
+        border: 0;
+        outline: 0; 
+        background: #ebfffc;
+        border-radius: 50%;
+    
+        width: 60px;
+        height: 60px;
+    
+        cursor: pointer;
+
+        margin-top: 20px;
+    }
+
+}
