@@ -1,0 +1,45 @@
+{
+    "coord": {
+        "lon": -75.5299,
+        "lat": 40.6801
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 66.79,
+        "feels_like": 66.65,
+        "temp_min": 64.98,
+        "temp_max": 68.68,
+        "pressure": 1016,
+        "humidity": 74,
+        "sea_level": 1016,
+        "grnd_level": 995
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 12.66,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1730468466,
+    "sys": {
+        "type": 2,
+        "id": 2002445,
+        "country": "US",
+        "sunrise": 1730460772,
+        "sunset": 1730498304
+    },
+    "timezone": -14400,
+    "id": 5188351,
+    "name": "Egypt",
+    "cod": 200
+}
