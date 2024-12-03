@@ -6,6 +6,8 @@ const Humidity = document.querySelector(".Humidity")
 
 const Wind = document.querySelector(".Wind")
 
+const Temp = document.querySelector(".Temp")
+
 const Div_Of_SearchBar = document.querySelector(".Div_Of_SearchBar")
 
  let SearchBar_Value = Div_Of_SearchBar.value;
@@ -31,12 +33,13 @@ function fetchData(){
         City.textContent = Resulte_2.name;
         Humidity.textContent = Resulte_2.main.humidity + "%"
         Wind.textContent = Resulte_2.wind.speed + " km/h"
+        Temp.textContent=Resulte_2.main.temp + "°C"
     }).catch((error)=>{
         
         City.textContent = "error";
-        Humidity.textContent = "error" + "%"
-        Wind.textContent = "error" + " km/h"  
-
+        Humidity.textContent = "error" 
+        Wind.textContent = "error"   
+Temp.textContent="error"
     });
 }
 
